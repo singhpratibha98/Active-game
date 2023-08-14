@@ -1,0 +1,19 @@
+element.style {
+    display: block;
+    -webkit-user-select: none;
+    margin: auto;
+    cursor: zoom-in;
+    background-color: hsl(0, 0%, 90%);
+    transition: background-color 300ms;
+}
+
+img[Attributes Style] {
+    width: 208px;
+    aspect-ratio: auto 208 / 150;
+    height: 150px;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
